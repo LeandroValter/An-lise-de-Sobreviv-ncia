@@ -1,14 +1,9 @@
 [![author](https://img.shields.io/badge/author-leandrovalter-red.svg)](https://www.linkedin.com/in/leandrovalter) [![author](https://img.shields.io/badge/author-thiagooliveira-green.svg)](https://www.linkedin.com/in/tiago-almeida-de-oliveira-9b3baa27/)
 
-<html>
 
-   <body>
-      <h1>Análise de sobrevivência</h1>
-      <p style="text-align:center;">Modelando dados com cesura</p>
-   </body>
-</html>
-
-
+<h1>Análise de sobrevivência</h1>
+<h6>Modelando dados com cesura<h6>
+   
 <p align="center">
 <img src="19876.jpg" alt="drawing" width="500"/>
 </p>
@@ -24,3 +19,13 @@ Os estudos de sobrevivência podem envolver estimativa da distribuição de sobr
 Análise de Sobrevivência é caracterizada pela presença de censura nos dados. Onde censura pode ser definida como ausência da ocorrência do evento durante o tempo de estudo. Ou seja, por motivos que não envolvem o objetivo do estudo, o elemento não apresenta falha ou, até  mesmo quando os eventos iniciais ou finais não são observados com precisão.
 
 Podem existir muitos movitos para ser registrada a censura no estudo. Por exemplo, a impossibilidade de um paciente continuar a participar do estudo, substituição de um equipamento, etc. Assim, o tempo até a ocorrência da censura é registrado e levado em consideração nos modelos de sobrevivência. 
+
+
+Como fazer uma análise de sobrevivência?
+
+Muitos softwares de análise estatística possuem recursos para se estimar os modelos de sobrevivência. Por exemplo, tanto o *R* quanto o *Python* possuem específicas para a análise de dados de sobrevivência. Abaixo temos exemplos de análises comentadas em *software R* (Breve em Python).
+
+## Projetos:
+Projetos de análise de sobrevivência:
+
+* **Modelos de riscos proporcionais de Cox:** https://rpubs.com/ValterL/coxph01 -**R**
