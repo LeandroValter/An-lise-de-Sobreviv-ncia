@@ -2,7 +2,7 @@
 
 
 <h1>Análise de sobrevivência</h1>
-<h6>Modelando dados com cesura<h6>
+<h6>Modelando dados com censura<h6>
    
 <p align="center">
 <img src="19876.jpg" alt="drawing" width="500"/>
